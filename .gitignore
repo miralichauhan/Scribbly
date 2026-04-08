@@ -1,0 +1,98 @@
+# =========================
+# Node.js / Angular / React
+# =========================
+node_modules/
+dist/
+build/
+.tmp/
+out/
+.next/
+.angular/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# =========================
+# MySQL / Database
+# =========================
+*.sql
+*.dump
+*.bak
+
+# =========================
+# Logs & Temp
+# =========================
+logs/
+*.log
+tmp/
+temp/
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Docker (if used)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Firebase / AWS (if used)
+# =========================
+.firebase/
+.aws/
+
+# =========================
+# Cache
+# =========================
+.cache/
